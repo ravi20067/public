@@ -1,0 +1,26 @@
+const img = {
+    USD: "US",
+    GBP: "GB",
+    JPY: "JP",
+    INR: "IN",
+    AUD: "AU",
+    CAD: "CA",
+    CNY: "CN",
+    CHF: "CH",
+    NZD: "NZ",
+    ZAR: "ZA",
+    AED: "AE",
+    SGD: "SG",
+    SEK: "SE",
+    NOK: "NO",
+    KRW: "KR",
+    HKD: "HK",
+    MXN: "MX",
+    BRL: "BR",
+    RUB: "RU",
+    SAR: "SA",
+    TRY: "TR",
+    THB: "TH",
+    PKR: "PK"
+  };
+  

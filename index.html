@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main1">
+        <b>Currency Conveter</b>
+        <i>FROM  </i>
+        <div id="dropdown">
+        <i class="inputc">not selected</i>
+        <select name="Currency" id="input_currency">
+            <option value="USD" disabled selected>Select an option</option>
+        </select>
+        <p class="inputi"></p>
+        <i>TO  </i>
+        <i class="outputc">not selected</i>
+        <select name="Currency" id="output_currency">
+            <option value="INR" disabled selected>Select an option</option>
+        </select>
+        <p class="outputi"></p>
+        <br/>
+    </div>
+    
+    <input type="number" placeholder="Enter the value" class="number">
+    <button id="go">GO</button>
+    <br\>
+    <h3 id="output"></h3>
+    </div>          
+    <script src="countrycodes.js"></script> 
+    <script src="pic.js"></script>                                        
+    <script src="script.js"></script>
+</body>
+</html>
